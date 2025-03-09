@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    background: url('https://www.w3schools.com/css/img_lights.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.header h1 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header a {
+    color: green;
+    font-style: italic;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #e07d3b;
+    padding: 20px;
+    color: black;
+    text-align: justify;
